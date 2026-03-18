@@ -28,6 +28,7 @@ $user = currentUser();
     <div class="nav-links">
       <a href="/index.php" class="nav-link"><i class="fas fa-home"></i> Home</a>
       <a href="/pages/leaderboard.php" class="nav-link"><i class="fas fa-trophy"></i> Leaderboard</a>
+      <a href="/pages/chat.php" class="nav-link" style="color:var(--accent2)"><i class="fas fa-robot"></i> Dabi AI</a>
       <?php if ($user): ?>
         <a href="/pages/quiz.php" class="nav-link btn-play"><i class="fas fa-play"></i> Main Quiz</a>
         <div class="nav-user">
@@ -51,6 +52,7 @@ $user = currentUser();
   <div class="mobile-menu" id="mobileMenu">
     <a href="/index.php"><i class="fas fa-home"></i> Home</a>
     <a href="/pages/leaderboard.php"><i class="fas fa-trophy"></i> Leaderboard</a>
+    <a href="/pages/chat.php" style="color:var(--accent2)"><i class="fas fa-robot"></i> Dabi AI</a>
     <?php if ($user): ?>
       <a href="/pages/quiz.php"><i class="fas fa-play"></i> Main Quiz</a>
       <a href="/pages/profile.php"><i class="fas fa-user"></i> Profile</a>
