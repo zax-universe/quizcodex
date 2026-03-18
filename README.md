@@ -1,6 +1,6 @@
 # 🖥️ QuizCode — Platform Quiz Pilihan Ganda
 
-Platform kuis berbasis terminal dengan UI cyberpunk/coding aesthetic.
+Platform kuis tentang codink sains dan teknology
 
 ---
 
@@ -169,4 +169,4 @@ this.timeLeft = 20;  // Dalam detik
 
 ---
 
-Made with ❤️ — QuizCode v1.0
+Made with ❤️ — zax-universe v1.0
